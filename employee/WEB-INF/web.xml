@@ -1,0 +1,26 @@
+<web-app>
+<servlet>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <servlet-class>EmployeeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <url-pattern>/EmployeeServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>EditServlet</servlet-name>
+    <servlet-class>EditServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>EditServlet</servlet-name>
+    <url-pattern>/EditServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ViewServlet</servlet-name>
+    <servlet-class>ViewServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ViewServlet</servlet-name>
+    <url-pattern>/ViewServlet</url-pattern>
+</servlet-mapping>
+</web-app>
