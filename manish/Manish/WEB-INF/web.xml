@@ -1,0 +1,9 @@
+<web-app><servlet>
+<servlet-name>abc</servlet-name>
+<servlet-class>Votersrv</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>abc</servlet-name>
+<url-pattern>/vturl</url-pattern>
+</servlet-mapping>
+</web-app>
