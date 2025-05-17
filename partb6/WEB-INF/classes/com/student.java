@@ -8,7 +8,6 @@ public class student {
     private int sem;
     private int age;
     private String address;
-
     public String getFirstName() {
         return firstName;
     }
